@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { auth } from "../firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
@@ -24,7 +23,7 @@ function Login() {
     <>
       <div className="main-container">
         <div className="main-dev">
-          <h2>Login</h2>
+          <h2 className="form-heading">Login</h2>
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
           <button onClick={handleLogin}>Login</button>

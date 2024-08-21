@@ -15,14 +15,12 @@
     display: flex;
     flex-direction: column;
     width: 35rem;
-    height: 20rem;
-    /* justify-content: center; */
+    height: 22rem;
     align-items: center;
     border: 1px solid rgb(211, 207, 207);
     border-radius: 10px;
     outline: none;
     padding: 1rem;
-    /* background-color: blueviolet; */
     box-shadow: 1px 3px 10px 0.9px rgb(229, 226, 226);
 
 }
@@ -30,9 +28,7 @@
 .main-dev input {
     margin-bottom: 1rem;
     width: 100%;
-    /* height: 2rem; */
     padding: 1rem 10px;
-    /* border: none; */
     outline: none;
     border-radius: 5px;
     background-color: white;
@@ -162,8 +158,21 @@
   }
   
   .sign {
-    /* border: 2px solid red; */
     position: absolute;
-    right: 53rem;
+    right: 52rem;
     bottom: 14rem;
+  }
+
+  .form-heading {
+    margin-bottom: 1rem;
+  }
+
+  .sign span {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 5px 12px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ccc;
+    cursor: pointer;
   }
