@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-dev {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 20rem;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 10px;
+    outline: none;
+    padding: 1rem;
+    /* background-color: blueviolet; */
+    box-shadow: 1px 3px 10px 0.9px rgb(229, 226, 226);
+
+}
+
+.main-dev input {
+    margin-bottom: 1rem;
+    width: 100%;
+    /* height: 2rem; */
+    padding: 1rem 10px;
+    /* border: none; */
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: large;
+
+
+}
+
+.main-dev button {
+    padding: 1rem 3rem;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.task-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  .input-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-task input[type="text"] {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-task input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  .input-task select {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-task select:focus {
+    border-color: #007bff;
+  }
+  
+  .input-task button {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .input-task button:hover {
+    background: linear-gradient(135deg, #5b7de1, #9259c3);
+    transform: translateY(-2px);
+  }
+  
+
+  .drop {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #333;
+    text-align: center;
+  }
+  
+  .droppable {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    margin: 10px 0;
+    min-height: 150px;
+    /* border: 2px dashed #007bff; */
+    overflow-x: auto;
+  }
+  
+  .draggable {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: move;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  .draggable:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+  }
+  
+  .draggable:active {
+    transform: scale(1.05);
+    background-color: #dee2e6;
+  }
+  
+  .sign {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 53rem;
+    bottom: 14rem;
+  }
